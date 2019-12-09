@@ -1,0 +1,21 @@
+{
+  "name": "css-grid-playground",
+  "version": "1.0.0",
+  "description": "Various use cases for the Holy Grail",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, !node_modules/**/*' --directory --startPath 'exercises' --browser 'Firefox Developer Edition'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitebackdoor7/css-grid-playground.git"
+  },
+  "author": "whitebackdoor7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whitebackdoor7/css-grid-playground/issues"
+  },
+  "homepage": "https://github.com/whitebackdoor7/css-grid-playground#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}

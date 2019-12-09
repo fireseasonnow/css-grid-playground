@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'VT323', monospace;
+}
+
+.taskText {
+    font-size: 30px;
+}
+
+.grid {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.grid__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    font-size: 2em;
+    background: #AE48B2;
+}

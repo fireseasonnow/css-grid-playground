@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09 - Align and justify the content again</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link href="../../assets/style.css" rel="stylesheet">
+    <style>
+        .grid {
+            display: grid;
+            height: 700px;
+            grid-template-columns: repeat(2, 40px 100px);
+            grid-template-rows: repeat(2, 200px) 100px;
+            justify-content: space-between;
+            align-content: end;
+            grid-gap: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <p class="taskText">Set up 4 columns: 40px and 100px alternately + 3 rows: 2x200px and 100px + space the grid evenly in row + move the grid to bottom + row gap 15px</p>
+
+    <div class="grid">
+        <div class="grid__item">1</div>
+        <div class="grid__item">2</div>
+        <div class="grid__item">3</div>
+        <div class="grid__item">4</div>
+        <div class="grid__item">5</div>
+        <div class="grid__item">6</div>
+        <div class="grid__item">7</div>
+        <div class="grid__item">8</div>
+        <div class="grid__item">9</div>
+        <div class="grid__item">10</div>
+        <div class="grid__item">11</div>
+    </div>
+</body>
+</html>
